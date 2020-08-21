@@ -8,7 +8,7 @@
 
 <body>
   <h1>To Do List</h1>
-  <% if (todos) { %>
+  <% if (todos.lenght) { %>
   <ul>
     <% todos.forEach(function(t) { %>
     <li>
@@ -24,6 +24,7 @@
   <% } else { %>
   <h3>There are no To Dos yet!</h3>
   <% } %>
+  <hr>
   <form action='/' method='POST' autocomplete='off'>
     <input type='text' name='todo' required>
     <button type='submit'>ADD TO DO</button>
