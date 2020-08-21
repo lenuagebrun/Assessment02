@@ -1,0 +1,17 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.delete {
+  background: url('https://media1.tenor.com/images/945302d3fb5d1219f2d53dca0eacb55c/tenor.gif?itemid=9438214');
+  color: white;
+}
+
+form {
+  display: inline
+}
